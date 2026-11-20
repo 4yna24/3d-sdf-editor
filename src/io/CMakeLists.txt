@@ -1,0 +1,9 @@
+sdfe_add_module(io
+  SOURCES
+    intern/scene_file.cc
+  USES
+    scene
+    sdf
+    props
+    base
+)

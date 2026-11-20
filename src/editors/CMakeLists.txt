@@ -1,0 +1,24 @@
+# Editor types and the operators that belong to them. May use every module below.
+sdfe_add_module(editors
+  SOURCES
+    screen/screen_ops.cc
+    space_topbar/space_topbar.cc
+    space_view3d/space_view3d.cc
+    space_outliner/space_outliner.cc
+    space_properties/space_properties.cc
+    space_preferences/space_preferences.cc
+    object/object_ops.cc
+    file/file_ops.cc
+  USES
+    wm
+    draw
+    io
+    ui
+    scene
+    prefs
+    sdf
+    props
+    gpu
+    platform
+    base
+)
